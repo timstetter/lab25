@@ -1,5 +1,6 @@
 package co.grandcircus.lab25;
 
+import java.util.Collections;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
@@ -20,9 +21,11 @@ public class HOFApiService {
 		HOFResponse res = rt.getForObject(url, HOFResponse.class);		
 		return res.getTiny();
 	}
-	public List<Complete> listCompletes() {		
-		HOFResponse res = rt.getForObject(url, HOFResponse.class);		
-		return res.getComplete();
+	public List<Complete> listCompletesByYear() {		
+		HOFResponse res = rt.getForObject(url, HOFResponse.class);	
+		List<Complete> comp = res.getComplete();
+		Collections.sort(comp);
+		return comp;
 	}
 
 }

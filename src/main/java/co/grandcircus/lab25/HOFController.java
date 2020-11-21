@@ -16,5 +16,11 @@ public class HOFController {
 		model.addAttribute("tinys", hofApiService.listTinys());
 		return "hof";
 	}
+
+	@RequestMapping("/complete")
+	public String complete(Model model) {
+		model.addAttribute("completes", hofApiService.listCompletesByYear());
+		return "complete";
+	}
 	
 }
