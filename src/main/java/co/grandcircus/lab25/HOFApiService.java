@@ -20,7 +20,7 @@ public class HOFApiService {
 		HOFResponse res = rt.getForObject(url, HOFResponse.class);		
 		return res.getTiny();
 	}
-	public List<Complete> listCompletesByYear() {		
+	public List<Complete> listCompletes() {		
 		HOFResponse res = rt.getForObject(url, HOFResponse.class);			
 		return res.getComplete();
 	}

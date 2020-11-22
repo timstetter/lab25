@@ -1,6 +1,6 @@
 package co.grandcircus.lab25.model;
 
-public class Complete implements Comparable<Complete> {
+public class Complete {
 
 	private String firstName;
 	private String lastName;
@@ -43,14 +43,6 @@ public class Complete implements Comparable<Complete> {
 	public String toString() {
 		return "Complete [firstName=" + firstName + ", lastName=" + lastName + ", innovation=" + innovation + ", year="
 				+ year + "]";
-	}
-
-	@Override
-	public int compareTo(Complete o) {
-		if (getYear() == null || o.getYear() == null) {
-			return 0;
-		}
-		return getYear().compareTo(o.getYear());
-	}
+	}	
 
 }

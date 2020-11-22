@@ -19,7 +19,7 @@ public class HOFController {
 
 	@RequestMapping("/complete")
 	public String complete(Model model) {
-		model.addAttribute("completes", hofApiService.listCompletesByYear());
+		model.addAttribute("completes", hofApiService.listCompletes());
 		return "complete";
 	}
 	
