@@ -5,17 +5,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="styles.css" rel="stylesheet"/>
+<script src="hofscript.js"></script>
 <meta charset="UTF-8">
 <title>CS Hall of Fame</title>
 </head>
 <body>
 	<h1>Computer Science Hall of Fame</h1>
-	<table>
+	<table id="myTable">
 		<thead>
 			<tr>
-				<th>Name</th>
-				<th>Invented</th>
-				<th>Year</th>								
+				<th onclick="sortTable(0)">Name</th>
+				<th onclick="sortTable(1)">Invented</th>
+				<th onclick="sortTable(2)">Year</th>								
 			</tr>
 		</thead>
 		<tbody>

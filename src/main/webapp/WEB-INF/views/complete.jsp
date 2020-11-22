@@ -5,19 +5,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="styles.css" rel="stylesheet"/>
+<script src="hofscript.js"></script>
 <meta charset="ISO-8859-1">
 <title> Hall of Fame | Complete</title>
 </head>
 <body>
 	<h1>CS Hall of Fame - Complete List</h1>
 	
-	<table>
+	<table id="myTable">
 		<thead>
 			<tr>
-				<th>First Name</th>
-				<th>Last Name</th>
-				<th>Innovation</th>
-				<th>Year</th>								
+				<th onclick="sortTable(0)">First Name</th>
+				<th onclick="sortTable(1)">Last Name</th>
+				<th onclick="sortTable(2)">Innovation</th>
+				<th onclick="sortTable(3)">Year</th>								
 			</tr>
 		</thead>
 		<tbody>
@@ -31,6 +33,7 @@
 			</c:forEach>
 		</tbody>
 	</table>
+	<a href="/hof">Go back to Hall of Fame Landing Page</a> <br />
 	<a href="/">Go back to home</a>
 	
 	
