@@ -6,7 +6,7 @@
 <html>
 <head>
 <link href="styles.css" rel="stylesheet"/>
-<script src="hofscript.js"></script>
+<script src="script.js"></script>
 <meta charset="UTF-8">
 <title>CS Hall of Fame</title>
 </head>

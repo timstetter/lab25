@@ -11,6 +11,7 @@
 	<ul>
 		<li><a href="/hof">Hall of Fame API</a></li>
 		<li><a href="/news">PlayStation 5 News</a></li>
+		<li><a href="/gcinfo">Grand Circus Info API</a></li>
 	</ul>
 </body>
 </html>

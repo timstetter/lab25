@@ -18,7 +18,7 @@ public class NewsApiService {
 	
 	private RestTemplate rt = new RestTemplate();
 	
-	private String apiKey = "REDCATED";
+	private String apiKey = "f070e48ea93c4259a30caaa763fc697a";
 	
 	public List<Article> getArticlesWithHeader(String query) {
 		
