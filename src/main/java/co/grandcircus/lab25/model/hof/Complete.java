@@ -1,4 +1,4 @@
-package co.grandcircus.lab25.model;
+package co.grandcircus.lab25.model.hof;
 
 public class Complete {
 

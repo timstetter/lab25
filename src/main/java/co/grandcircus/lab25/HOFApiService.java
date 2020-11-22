@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import co.grandcircus.lab25.model.Complete;
-import co.grandcircus.lab25.model.HOFResponse;
-import co.grandcircus.lab25.model.Tiny;
+import co.grandcircus.lab25.model.hof.Complete;
+import co.grandcircus.lab25.model.hof.HOFResponse;
+import co.grandcircus.lab25.model.hof.Tiny;
 
 @Service
 public class HOFApiService {

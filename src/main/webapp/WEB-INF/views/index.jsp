@@ -10,7 +10,7 @@
 <h1>Lab 25 - Consuming APIs</h1>
 	<ul>
 		<li><a href="/hof">Hall of Fame API</a></li>
-		<li><a href="/">2nd API Placeholder</a></li>
+		<li><a href="/news">PlayStation 5 News</a></li>
 	</ul>
 </body>
 </html>
